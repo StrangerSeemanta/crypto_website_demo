@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Meta -->
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Title -->
+	<title>Crazy Cock</title>
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+	<!-- Style -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/site.webmanifest">
+	<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+
+	<header class="header" data-aos="fade-up" data-aos-duration="1000">
+		<div class="container">
+			<div class="header__inner">
+				<div class="menu__inner">
+					<img src="img/menu.svg" alt="menu" class="menu">
+					<img src="img/cross.svg" alt="cross" class="cross">
+				</div>
+
+				<a href="/" class="header__logo">
+					<img src="img/logo.png" alt="logo" class="logo">
+				</a>
+
+				<nav class="header__menu">
+					<a href="#" class="header__menu--link go" data-point="about">About Us</a>
+					<a href="#" class="header__menu--link go" data-point="airdrop">Airdrop</a>
+					<a href="#" class="header__menu--link go" data-point="cock">CockNomics</a>
+					<a href="#" class="header__menu--link go" data-point="road">RoadMap</a>
+					<a href="#" class="header__menu--link go" data-point="social">Social</a>
+					<a href="#" class="header__menu--link go" data-point="faq">FAQ</a>
+				</nav>
+
+				<button class="button header__button">
+					White paper
+				</button>
+
+				<div class="mobile__menu">
+					<a href="#" class="mobile__menu--link go" data-point="about">About Us</a>
+					<a href="#" class="mobile__menu--link go" data-point="airdrop">Airdrop</a>
+					<a href="#" class="mobile__menu--link go" data-point="cock">CockNomics</a>
+					<a href="#" class="mobile__menu--link go" data-point="road">RoadMap</a>
+					<a href="#" class="mobile__menu--link go" data-point="social">Social</a>
+					<a href="#" class="mobile__menu--link go" data-point="faq">FAQ</a>
+
+					<div class="mobile__menu--social">
+						<a href="https://t.me/+0g7J7mpxjChlN2I0" target="_blank" class="social__item">
+							<svg class="social__item--icon" viewBox="0 0 33 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M33 2.7294C33 2.82935 33 2.92931 33 3.02926L29.1467 26.8184C29.0479 27.4181 28.6527 28.0178 28.1587 28.3177C27.3683 28.8174 26.479 28.8174 25.6886 28.3177L15.018 20.9211C14.2275 20.4213 14.1287 19.2218 14.8204 18.6221L24.7006 9.02652C24.8982 8.82661 24.8982 8.52674 24.7994 8.32684C24.6018 8.02697 24.2066 7.92702 23.9102 8.12693L10.7695 16.9229C9.28743 17.9224 7.50898 18.1223 5.82934 17.6226L0.889223 16.0233C0.395211 15.8234 0 15.3236 0 14.8239C0 14.524 0.0988031 14.3241 0.197606 14.1242C0.296408 13.9243 0.494013 13.7244 0.79042 13.6244L30.4311 0.830271C31.2216 0.530408 32.1108 0.730317 32.6048 1.33004C32.8024 1.72986 33 2.22963 33 2.7294Z" fill="#FFBD1D"/>
+							</svg>
+						</a>
+
+						<a href="https://twitter.com/crazycockmeme" target="_blank" class="social__item">
+							<svg class="social__item--icon" viewBox="0 0 35 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M35 3.37794C33.6351 3.97405 32.2702 4.47081 30.9053 4.47081C32.3677 3.57665 33.4401 2.18573 34.0251 0.496757C32.3677 1.49027 30.8078 2.08637 29.4429 2.28507C28.1755 0.894151 26.3231 0 24.2758 0C20.2785 0 17.0613 3.27859 17.0613 7.352C17.0613 7.94811 17.1588 8.5442 17.2563 9.04096C10.7242 8.64355 5.8496 5.96108 2.24236 1.39091C0.584976 5.16627 0.974942 8.54421 4.58219 11.2267C3.41227 11.2267 2.24236 10.9287 1.26743 10.3325C1.36492 14.0085 3.21728 16.393 7.01951 17.5852C6.04458 17.8832 4.97214 17.9826 3.80222 17.7839C4.77715 20.7644 7.01952 22.4534 10.5293 22.7515C7.60448 25.1359 4.09471 26.2288 0 25.8314C12.8691 33.9782 31.2953 25.9307 31.2953 7.25264C31.2953 7.15329 31.2953 7.15328 31.2953 7.05393C32.7577 6.25912 33.9276 4.96757 35 3.37794Z" fill="#FFBD1D"/>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="main" id="about">
+		<div class="container">
+			<div class="main__inner">
+				<div class="main__img--inner" data-aos="fade-up" data-aos-duration="1000">
+					<img src="img/main-cock.png" alt="cock" class="main__img">
+				</div>
+
+				<div class="main__content" data-aos="fade-up" data-aos-duration="1000">
+					<div class="main__title--inner">
+						<h1 class="main__title">
+							<span>Crazy</span> Cock
+						</h1>
+
+						<p class="main__title--text">
+							meme
+						</p>
+					</div>
+
+					<p class="main__text">
+						Is a deflationary memecoin launched on Ethereum. <br>The First Meme coin centered around a comically exaggerated rooster character with distinct and quirky attributes hopes to inspire millions of people around the world to invest money into tokens with the Cocks Image on it.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="runstring" data-aos="fade-in" data-aos-duration="1000">
+		<p class="marquee">
+			<span>CrazyCock memecoin launched on Ethereum</span>
+			<span>CrazyCock memecoin launched on Ethereum</span>
+			<span>CrazyCock memecoin launched on Ethereum</span>
+			<span>CrazyCock memecoin launched on Ethereum</span>
+		</p>
+
+		<p class="marquee">
+			<span>CrazyCock memecoin launched on Ethereum</span>
+			<span>CrazyCock memecoin launched on Ethereum</span>
+			<span>CrazyCock memecoin launched on Ethereum</span>
+			<span>CrazyCock memecoin launched on Ethereum</span>
+		</p>
+	</div>
+
+	<section class="airdrop" id="airdrop" data-aos="fade-up" data-aos-duration="1000">
+		<div class="container">
+			<div class="airdrop__inner">
+				<div class="airdrop__wrapper">
+					<h3 class="subtitle">Airdrop</h3>
+
+					<p class="airdrop__text">
+						Participate in Airdrop to get % of <span>$COCK</span>
+					</p>
+
+					<img src="img/coin.svg" alt="coin" class="airdrop__img">
+				</div>
+
+				<div class="airdrop__content">
+					<p class="airdrop__subtitle">
+						Follow the steps to get involved
+					</p>
+
+					<div class="airdrop__items">
+						<div class="airdrop__item">
+							<p class="airdrop__item--text">
+								Subscribe <span>to <span class="gold">Twitter</span></span> /Repost the first post
+							</p>
+
+							<a href="https://twitter.com/crazycockmeme" target="_blank" class="airdrop__item--button">
+								Twitter
+
+								<svg viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<g clip-path="url(#clip0_0_93)">
+										<path d="M6.72157 16.9949C14.6354 16.9949 18.952 10.4792 18.952 4.82272C18.952 4.63178 18.952 4.46472 18.9281 4.27378C19.7674 3.6771 20.4868 2.91336 21.0624 2.05415C20.295 2.38828 19.4556 2.62695 18.5923 2.72242C19.5036 2.19735 20.1751 1.362 20.5108 0.359588C19.6715 0.860795 18.7602 1.19493 17.777 1.40974C16.9856 0.574391 15.8584 0.0493164 14.6354 0.0493164C12.2613 0.0493164 10.3427 1.95868 10.3427 4.32151C10.3427 4.65565 10.3907 4.98979 10.4627 5.30006C6.86546 5.13299 3.69992 3.41457 1.58957 0.836928C1.22985 1.45747 1.01402 2.19735 1.01402 2.98496C1.01402 4.46472 1.78142 5.7774 2.93252 6.54115C2.23706 6.51728 1.56559 6.32634 0.990036 6.01607C0.990036 6.03994 0.990036 6.03994 0.990036 6.06381C0.990036 8.14024 2.47688 9.85866 4.44335 10.2644C4.08363 10.3599 3.69992 10.4076 3.31622 10.4076C3.02845 10.4076 2.76465 10.3837 2.50086 10.336C3.05243 12.0306 4.6352 13.2716 6.50574 13.2955C5.04288 14.4411 3.17234 15.1333 1.15791 15.1333C0.822167 15.1333 0.462447 15.1094 0.126709 15.0855C2.02123 16.2789 4.29946 16.9949 6.72157 16.9949Z" fill="black"/>
+									</g>
+
+									<defs>
+										<clipPath id="clip0_0_93">
+											<rect width="20.9597" height="16.9456" fill="white" transform="translate(0.126709 0.0493164)"/>
+										</clipPath>
+									</defs>
+								</svg>
+							</a>
+						</div>
+
+						<div class="airdrop__item">
+							<p class="airdrop__item--text">
+								Subscribe to <span class="gold">Telegram</span>
+							</p>
+
+							<a href="https://t.me/+0g7J7mpxjChlN2I0" target="_blank" class="airdrop__item--button">
+								Telegram
+
+								<svg viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M19.5397 0.391744C19.4607 0.176941 19.3817 0.123241 19.2764 0.0963906C18.9867 -0.0378608 18.5128 0.123241 18.5128 0.123241C18.5128 0.123241 1.89732 6.21825 0.94937 6.88951C0.738714 7.02376 0.68605 7.13116 0.633387 7.21171C0.475395 7.69502 0.975702 7.90982 0.975702 7.90982L5.26781 9.33288C5.26781 9.33288 5.4258 9.35973 5.47846 9.33288C6.45274 8.71533 15.2739 3.02307 15.7742 2.83512C15.8532 2.80827 15.9059 2.83512 15.9059 2.88882C15.6953 3.61378 8.03266 10.568 8.03266 10.568C8.03266 10.568 8.00633 10.5948 7.98 10.6485L7.58502 14.9714C7.58502 14.9714 7.42703 16.2871 8.71729 14.9714C9.63891 14.0317 10.5342 13.253 10.9555 12.8771C12.4564 13.8974 14.0363 15.052 14.721 15.6427C15.0633 15.938 15.3529 15.9918 15.5899 15.9918C16.2482 15.9649 16.4325 15.2399 16.4325 15.2399C16.4325 15.2399 19.4344 2.80827 19.5397 1.14355C19.5397 0.982449 19.566 0.875048 19.566 0.767647C19.566 0.606546 19.566 0.472294 19.5397 0.391744Z" fill="black"/>
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="token" id="cock" data-aos="fade-up" data-aos-duration="1000">
+		<div class="container">
+			<div class="token__inner">
+				<div class="chart__inner">
+					<svg class="chart" viewBox="0 0 50 50">
+						<circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+						<circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+						<circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+						<circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+						<circle class="unit" r="15.9" cx="50%" cy="50%"></circle>
+					</svg>
+
+					<img src="img/farm.png" alt="farm" class="chart__img">
+
+					<div class="chart__info">
+						<p class="chart__info--title">Token Supply</p>
+
+						<p class="chart__info--value">500,000,000,000,000</p>
+					</div>
+				</div>
+
+				<div class="token__content">
+					<div class="token__name--inner">
+						<p class="subtitle">Token Name:</p>
+
+						<p class="token__cock">$Cock&rsquo;</p>
+					</div>
+
+					<div class="token__points--inner">
+						<div class="token__points--title--inner">
+							<p class="token__points--title">
+								Token Supply
+							</p>
+
+							<p class="token__points--value">
+								500,000,000,000,000
+							</p>
+						</div>
+
+						<div class="token__points">
+							<div class="token__point">
+								<div class="token__point--wrapper">
+									<p class="token__num">1</p>
+
+									<p class="token__name">Liquidity Pool</p>
+								</div>
+
+								<p class="token__percent">40%</p>
+							</div>
+
+							<div class="token__point">
+								<div class="token__point--wrapper">
+									<p class="token__num">2</p>
+
+									<p class="token__name">Presale</p>
+								</div>
+
+								<p class="token__percent">30%</p>
+							</div>
+
+							<div class="token__point">
+								<div class="token__point--wrapper">
+									<p class="token__num">3</p>
+
+									<p class="token__name">Team</p>
+								</div>
+
+								<p class="token__percent">5%</p>
+							</div>
+
+							<div class="token__point">
+								<div class="token__point--wrapper">
+									<p class="token__num">6</p>
+
+									<p class="token__name">Airdrop/Staking</p>
+								</div>
+
+								<p class="token__percent">15%</p>
+							</div>
+
+							<div class="token__point">
+								<div class="token__point--wrapper">
+									<p class="token__num">7</p>
+
+									<p class="token__name">Cex listing/Dex</p>
+								</div>
+
+								<p class="token__percent">10%</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="roadmap" id="road" data-aos="fade-up" data-aos-duration="1000">
+		<div class="container">
+			<div class="roadmap__inner">
+				<img src="img/foot.png" alt="foot" class="roadmap__foot">
+
+				<h3 class="subtitle">Road map</h3>
+
+				<div class="swiper roadmap__slider">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide roadmap__item">
+							<div class="roadmap__item--circle"></div>
+
+							<p class="roadmap__item--title">Phase 1</p>
+
+							<div class="roadmap__item--content">
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										Release website, Whitepaper and Cokenomics
+									</p>
+								</div>
+
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										Build founding team
+									</p>
+								</div>
+
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										Establish initial community on Telegram and other social media platforms
+									</p>
+								</div>
+
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										Influencer marketing drive
+									</p>
+								</div>
+
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										1000 Telegram Members
+									</p>
+								</div>
+
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										Get #CrazyCock trending on twitter
+									</p>
+								</div>
+
+								<img src="img/cock1.png" alt="cock" class="roadmap__item--cock">
+							</div>
+						</div>
+
+						<div class="swiper-slide roadmap__item">
+							<div class="roadmap__item--circle"></div>
+
+							<p class="roadmap__item--title">Phase 2</p>
+
+							<div class="roadmap__item--content">
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										Community Building and Engagement
+									</p>
+								</div>
+
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										Press Releases
+									</p>
+								</div>
+
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										5000 + Members
+									</p>
+								</div>
+
+								<img src="img/cock2.png" alt="cock" class="roadmap__item--cock">
+							</div>
+						</div>
+
+						<div class="swiper-slide roadmap__item">
+							<div class="roadmap__item--circle"></div>
+
+							<p class="roadmap__item--title">Phase 3</p>
+
+							<div class="roadmap__item--content">
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										10k Members
+									</p>
+								</div>
+
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										Website Redesign
+									</p>
+								</div>
+
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										Presale
+									</p>
+								</div>
+
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										Token distribution ,DEX listing(Uniswap)
+									</p>
+								</div>
+
+								<img src="img/cock3.png" alt="cock" class="roadmap__item--cock">
+							</div>
+						</div>
+
+						<div class="swiper-slide roadmap__item">
+							<div class="roadmap__item--circle"></div>
+
+							<p class="roadmap__item--title">Phase 4</p>
+
+							<div class="roadmap__item--content">
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										10k Members
+									</p>
+								</div>
+
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										Cock Merch
+									</p>
+								</div>
+
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										CoinGecko /Coinmarketcap Listing
+									</p>
+								</div>
+
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										Initial CEX Listings (Hotbit, Bilaxy, CoinTiger)
+									</p>
+								</div>
+
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										T1 Exchange Listing LFG
+									</p>
+								</div>
+
+								<div class="roadmap__item--point">
+									<img src="img/cock-type.svg" alt="cock" class="roadmap__item--point--img">
+
+									<p class="roadmap__item--point--text">
+										Airdrop distribution
+									</p>
+								</div>
+
+								<img src="img/cock4.png" alt="cock" class="roadmap__item--cock">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="roadmap__arrows">
+					<button class="button roadmap__arrow roadmap__prev">
+						<svg viewBox="0 0 14 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M13.068 0.760739C13.3843 1.07719 13.5621 1.50634 13.5621 1.9538C13.5621 2.40127 13.3843 2.83041 13.068 3.14686L5.42197 10.7929C5.03145 11.1834 5.03145 11.8166 5.42197 12.2071L13.068 19.8531C13.3754 20.1714 13.5455 20.5976 13.5416 21.0401C13.5378 21.4826 13.3603 21.9058 13.0474 22.2187C12.7346 22.5316 12.3113 22.709 11.8689 22.7129C11.4264 22.7167 11.0001 22.5466 10.6819 22.2392L1.13568 12.6931C0.819322 12.3766 0.641602 11.9475 0.641602 11.5C0.641602 11.0525 0.819322 10.6234 1.13568 10.3069L10.6819 0.760739C10.9983 0.444382 11.4275 0.266662 11.8749 0.266662C12.3224 0.266662 12.7515 0.444382 13.068 0.760739Z" fill="black"/>
+						</svg>
+					</button>
+
+					<button class="button roadmap__arrow roadmap__next">
+						<svg viewBox="0 0 14 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M0.93201 0.760739C0.615653 1.07719 0.437933 1.50634 0.437933 1.9538C0.437933 2.40127 0.615653 2.83041 0.93201 3.14686L8.57803 10.7929C8.96855 11.1834 8.96855 11.8166 8.57803 12.2071L0.932009 19.8531C0.624617 20.1714 0.454527 20.5976 0.458372 21.0401C0.462217 21.4826 0.639689 21.9058 0.952565 22.2187C1.26544 22.5316 1.68869 22.709 2.13114 22.7129C2.5736 22.7167 2.99987 22.5466 3.31813 22.2392L12.8643 12.6931C13.1807 12.3766 13.3584 11.9475 13.3584 11.5C13.3584 11.0525 13.1807 10.6234 12.8643 10.3069L3.31813 0.760739C3.00168 0.444382 2.57254 0.266662 2.12507 0.266662C1.67761 0.266662 1.24846 0.444382 0.93201 0.760739Z" fill="black"/>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="social" id="social">
+		<div class="container">
+			<div class="social__inner">
+				<div class="social__img--inner" data-aos="fade-up" data-aos-duration="1000">
+					<img src="img/social-cock.png" alt="cock" class="social__img">
+				</div>
+
+				<div class="social__content" data-aos="fade-up" data-aos-duration="1000">
+					<h3 class="subtitle">
+						Social
+					</h3>
+
+					<p class="social__text">
+						Establish initial community on Telegram and other social media platforms   Establish initial community on.
+					</p>
+
+					<div class="social__items">
+						<a href="https://t.me/+0g7J7mpxjChlN2I0" target="_blank" class="social__item">
+							<svg class="social__item--icon" viewBox="0 0 33 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M33 2.7294C33 2.82935 33 2.92931 33 3.02926L29.1467 26.8184C29.0479 27.4181 28.6527 28.0178 28.1587 28.3177C27.3683 28.8174 26.479 28.8174 25.6886 28.3177L15.018 20.9211C14.2275 20.4213 14.1287 19.2218 14.8204 18.6221L24.7006 9.02652C24.8982 8.82661 24.8982 8.52674 24.7994 8.32684C24.6018 8.02697 24.2066 7.92702 23.9102 8.12693L10.7695 16.9229C9.28743 17.9224 7.50898 18.1223 5.82934 17.6226L0.889223 16.0233C0.395211 15.8234 0 15.3236 0 14.8239C0 14.524 0.0988031 14.3241 0.197606 14.1242C0.296408 13.9243 0.494013 13.7244 0.79042 13.6244L30.4311 0.830271C31.2216 0.530408 32.1108 0.730317 32.6048 1.33004C32.8024 1.72986 33 2.22963 33 2.7294Z" fill="#FFBD1D"/>
+							</svg>
+						</a>
+
+						<a href="https://twitter.com/crazycockmeme" target="_blank" class="social__item">
+							<svg class="social__item--icon" viewBox="0 0 35 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M35 3.37794C33.6351 3.97405 32.2702 4.47081 30.9053 4.47081C32.3677 3.57665 33.4401 2.18573 34.0251 0.496757C32.3677 1.49027 30.8078 2.08637 29.4429 2.28507C28.1755 0.894151 26.3231 0 24.2758 0C20.2785 0 17.0613 3.27859 17.0613 7.352C17.0613 7.94811 17.1588 8.5442 17.2563 9.04096C10.7242 8.64355 5.8496 5.96108 2.24236 1.39091C0.584976 5.16627 0.974942 8.54421 4.58219 11.2267C3.41227 11.2267 2.24236 10.9287 1.26743 10.3325C1.36492 14.0085 3.21728 16.393 7.01951 17.5852C6.04458 17.8832 4.97214 17.9826 3.80222 17.7839C4.77715 20.7644 7.01952 22.4534 10.5293 22.7515C7.60448 25.1359 4.09471 26.2288 0 25.8314C12.8691 33.9782 31.2953 25.9307 31.2953 7.25264C31.2953 7.15329 31.2953 7.15328 31.2953 7.05393C32.7577 6.25912 33.9276 4.96757 35 3.37794Z" fill="#FFBD1D"/>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="runstring" data-aos="fade-in" data-aos-duration="1000">
+		<p class="marquee">
+			<span>CrazyCock memecoin launched on Ethereum</span>
+			<span>CrazyCock memecoin launched on Ethereum</span>
+			<span>CrazyCock memecoin launched on Ethereum</span>
+			<span>CrazyCock memecoin launched on Ethereum</span>
+		</p>
+
+		<p class="marquee">
+			<span>CrazyCock memecoin launched on Ethereum</span>
+			<span>CrazyCock memecoin launched on Ethereum</span>
+			<span>CrazyCock memecoin launched on Ethereum</span>
+			<span>CrazyCock memecoin launched on Ethereum</span>
+		</p>
+	</div>
+	
+	<section class="faq" id="faq" data-aos="fade-up" data-aos-duration="1000">
+		<div class="container">
+			<div class="faq__inner">
+				<h3 class="subtitle center">Faq</h3>
+
+				<div class="faq__content">
+					<div class="faq__item">
+						<div class="faq__item--wrapper">
+							<div class="faq__item--title--inner">
+								<p class="faq__item--num">01</p>
+
+								<p class="faq__item--question">
+									What is CrazyCock?
+								</p>
+							</div>
+
+							<div class="faq__item--open">
+								<p>+</p>
+							</div>
+						</div>
+
+						<div class="faq__item--answer">
+							The CrazyCock Meme project is a digital creative endeavor aimed at developing and popularizing a humorous and entertaining internet meme centered around a fictional character named CrazyCock.
+						</div>
+					</div>
+
+					<div class="faq__item">
+						<div class="faq__item--wrapper">
+							<div class="faq__item--title--inner">
+								<p class="faq__item--num">02</p>
+
+								<p class="faq__item--question">
+									What are the $COCK token Details
+								</p>
+							</div>
+
+							<div class="faq__item--open">
+								<p>+</p>
+							</div>
+						</div>
+
+						<div class="faq__item--answer">
+							$COCK is an ERC-20 token on the Ethereum Blockchain with a maximum supply of 500,000,000,000,000 (500 trillion).
+						</div>
+					</div>
+
+					<div class="faq__item">
+						<div class="faq__item--wrapper">
+							<div class="faq__item--title--inner">
+								<p class="faq__item--num">03</p>
+
+								<p class="faq__item--question">
+									Why CrazyCock?
+								</p>
+							</div>
+
+							<div class="faq__item--open">
+								<p>+</p>
+							</div>
+						</div>
+
+						<div class="faq__item--answer">
+							The project's primary objective is to generate widespread engagement and laughter across various online platforms, including social media, forums, and image-sharing websites.
+						</div>
+					</div>
+
+					<div class="faq__item">
+						<div class="faq__item--wrapper">
+							<div class="faq__item--title--inner">
+								<p class="faq__item--num">04</p>
+
+								<p class="faq__item--question">
+									When is the $Cock Presale?
+								</p>
+							</div>
+
+							<div class="faq__item--open">
+								<p>+</p>
+							</div>
+						</div>
+
+						<div class="faq__item--answer">
+							The specific date and time for the Presale as well as the launch details will be announced on our website and official social media platforms after The Airdrop Campaign concludes. *Cryptocurrency may be unregulated in your jurisdiction. *The value of cryptocurrencies may go down as well as up. *Profits may be subject to capital gains or other taxes applicable in your jurisdiction.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<p class="footer__disc">
+					$Cock is a meme coin with no intrinsic value or expectation of financial return. The Coin is for entertainment purposes only.
+				</p>
+
+				<div class="footer__wrapper">
+					<div class="footer__social">
+						<a href="https://twitter.com/crazycockmeme" target="_blank" class="footer__social--link">
+							<img src="img/twitter.svg" alt="twitter" class="footer__social--icon">
+						</a>
+	
+						<a href="https://t.me/+0g7J7mpxjChlN2I0" class="footer__social--link">
+							<img src="img/telegram.svg" alt="telegram" target="_blank" class="footer__social--icon">
+						</a>
+					</div>
+	
+					<p class="footer__copy">
+						Copyright. CrazyCock 2023.
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+</html>
